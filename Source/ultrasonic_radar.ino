@@ -14,7 +14,7 @@ UltraSonicDistanceSensor distanceSensor(trig, echo);
 Servo servo;
 OLED oled;
 
-float mesafe;
+int mesafe;
 uint16_t pos;
 
 void setup() {
